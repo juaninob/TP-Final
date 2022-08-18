@@ -1,6 +1,40 @@
+@charset "UTF-8";
 * {
   padding: 0px;
   margin: 0px; }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 0.45; }
+  .card:hover {
+    animation: beat;
+    animation-duration: 0.75s;
+    opacity: 1.0; }
+
+/* animación para las tarjetas */
+@keyframes beat {
+  0% {
+    transform: scale(1); }
+  10% {
+    transform: scale(1.01); }
+  20% {
+    transform: scale(1.02); }
+  30% {
+    transform: scale(1.03); }
+  40% {
+    transform: scale(1.04); }
+  50% {
+    transform: scale(1.05); }
+  60% {
+    transform: scale(1.04); }
+  70% {
+    transform: scale(1.03); }
+  80% {
+    transform: scale(1.02); }
+  90% {
+    transform: scale(1.01); }
+  100% {
+    transform: scale(1); } }
 
 .promo {
   justify-content: center;
@@ -31,5 +65,5 @@
     color: red;
     left: 0px; } }
 
-main {
-  background-color: white; }
+hr {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.49); }
