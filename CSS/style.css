@@ -2,5 +2,34 @@
   padding: 0px;
   margin: 0px; }
 
+.promo {
+  justify-content: center;
+  align-content: center;
+  color: red;
+  position: relative;
+  animation-name: promoTitulo;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; }
+
+@keyframes promoTitulo {
+  0% {
+    color: red;
+    left: 0px; }
+  25% {
+    color: yellow;
+    left: -200px; }
+  50% {
+    color: yellow;
+    left: 200px; }
+  75% {
+    color: green;
+    left: -200px; }
+  100% {
+    color: red;
+    left: 0px; } }
+
 main {
   background-color: white; }

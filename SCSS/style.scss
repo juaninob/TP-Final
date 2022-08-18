@@ -3,7 +3,9 @@
     margin: 0px;
 }
 
-
+@import "./partials/cards";  
+@import "./partials/text";   
+@import "./partials/navbar"; 
 
 main {
     background-color: white;
