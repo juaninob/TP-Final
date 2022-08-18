@@ -34,6 +34,14 @@
   100% {
     transform: scale(1); } }
 
+.difuse {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  font-weight: bold; }
+
+nav {
+  text-decoration: white; }
+
 .promo {
   justify-content: center;
   align-content: center;
@@ -69,5 +77,4 @@ hr {
 .social i {
   font-size: xx-large;
   line-height: 4vw;
-  margin-right: 1em;
-  margin-top: 1em; }
+  margin-right: 15px; }
